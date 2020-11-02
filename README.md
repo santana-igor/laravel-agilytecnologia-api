@@ -45,7 +45,7 @@ resumos JSON desses dados em um formato que faça sentido para que ser consumido
 # Endpoints da API
 
 
-Todos **Endpoints** fornecidos que estão sendo utilizados para semear o banco de dados.
+Todos **Endpoints** fornecidos que estão sendo utilizados para semear o banco de dados local.
 
 | Comando | Descrição | Endpoint |
 | --- | --- | --- | 
@@ -55,29 +55,27 @@ Todos **Endpoints** fornecidos que estão sendo utilizados para semear o banco d
 | Users | Os usuários que trabalham em tarefas, tempo de registro, etc | [JSON](https://my-json-server.typicode.com/bomoko/algm_assessment/users) |
 
 
-# Tarefas feitas
+# Primeira etapa - Semear banco de dados
 
-- Tarefa 1:
+- Passo 1:
   - Utilização do Database Migrations
   - Criação de tabelas para persistir os dados no banco SQLite
 
-- Tarefa 2:
+- Passo 2:
+  - Desenvolvimento de classe e métodos para fazer as chamadas http. Utilização do GuzzleHttp Client
   - Popular as tabelas com os dados dos fornecidos pelos Endpoints
   - Utilização do Eloquent ORM para inserir os dados no banco
 
-- Tarefa 3:
+- Passo 3:
   - Criação de um Artisan Command para semear o banco com os dados obtidos nos Endpoints
 
 
-# Desenvolvimento da API para consumo
+# Segunda etapa - Criação dos Endpoints da API
 
-```
-- 1º:
   - Em Routes Web foi criado um Endpoint chamado /user-timelogs que retornará um JSON de usuários e quantos segundos eles trabalharam.
 
-- 2º:
   - Em Routes Web foi criado um Endpoint chamado /component-metadata que retornará um JSON da quantidade de tarefas com a soma de todo tempo gasto agrupado por Component (categoria).
-```
+
 
 # Estrutura de arquivos da aplicação
 O diretório `Services/Agily/` armazena toda regra da aplicação. Dentro de `Endpoints` estão os métodos para comunicação com a API. O Arquivo `Client.php` faz uso do `GuzzleHttp Client` e armazena a URL Base para servir as URI dos Endpoints individuais. Dentro do diretório `Reports` está a classe responsável por gerar os 2 relatório da aplicação. O arquivo `UserWorkLog.php` faz utilização do Eloquent Query Builder para obter os dados desejados.
