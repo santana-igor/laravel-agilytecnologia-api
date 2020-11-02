@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "AgilyDatabase",
+            "database": "${workspaceFolder:Agily}/database/database.sqlite"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
