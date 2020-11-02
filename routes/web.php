@@ -12,7 +12,3 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::group(['namespace' => 'Api'], function () {
-    Route::get('/user-timelogs', 'Reports@indexUsersTimelog');
-    Route::get('/component-metadata', 'Reports@indexComponentMetadata');
-});
