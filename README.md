@@ -186,6 +186,10 @@ Todas respostas estão em formado JSON.
 /component-metadata
 ```
 
+# Observações
+Para se adequar as exigências do Test da aplicação, foi realizado uma alteração de `Prefix` no `app/Providers/RouteServiceProvider.php`. Os Endpoints estão dentro de `routes/api.php` seguindo o padrão de construção de API no Laravel Framework.
+
+
 # Autor
 
 [LinkedIn](https://www.linkedin.com/in/igr-santana/) - Igor Santana Amaral
