@@ -45,7 +45,7 @@ resumos JSON desses dados em um formato que faça sentido para que ser consumido
 # Endpoints da API
 
 
-Todos **Endpoints** que estão sendo utilizados para semear o banco de dados.
+Todos **Endpoints** fornecidos que estão sendo utilizados para semear o banco de dados.
 
 | Comando | Descrição | Endpoint |
 | --- | --- | --- | 
@@ -57,7 +57,6 @@ Todos **Endpoints** que estão sendo utilizados para semear o banco de dados.
 
 # Tarefas feitas
 
-```
 - Tarefa 1:
   - Utilização do Database Migrations
   - Criação de tabelas para persistir os dados no banco SQLite
@@ -68,7 +67,7 @@ Todos **Endpoints** que estão sendo utilizados para semear o banco de dados.
 
 - Tarefa 3:
   - Criação de um Artisan Command para semear o banco com os dados obtidos nos Endpoints
-```
+
 
 # Desenvolvimento da API para consumo
 
