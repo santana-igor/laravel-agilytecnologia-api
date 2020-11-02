@@ -128,12 +128,15 @@ composer install
 ```
 
 
-# Configurações necessárias .env
+# Configurações necessárias
 Ajuste o seu arquivo `.env` conforme mostrado abaixo.
 Obs.: Lembre-se que estamos utilizando `sqlite`, logo é necessário possuir um arquivo chamado `database.sqlite` dentro do diretório `database/`.
 
 ```bash
-# .env
+# Crie um arquivo dentro do diretório database/
+database/database.sqlite
+
+# Configuração do .env
 APP_URL=http://localhost:8000
 
 DB_CONNECTION=sqlite
@@ -147,6 +150,9 @@ DB_PASSWORD=
 Após seguir todos os passos anteriores, iremos rodar as `migrations` e executar o comando que irá semear o banco de dados com o JSON fornecido anteriormente.
 
 ```bash
+# Gere a chave da aplicação
+php artisan key:generate
+
 # Execute as migrations
 php artisan migrate
 
@@ -162,6 +168,9 @@ php artisan serve
 Os testes já encontram-se no diretório `tests/Unit/`. Para executá-los, basta seguir as instruções:
 
 ```bash
+# Inicie limpando o cache
+php artisan config:cache
+
 # Executar o test com Artisan
 php artisan test
 
