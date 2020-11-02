@@ -47,11 +47,12 @@ resumos JSON desses dados em um formato que faça sentido para que ser consumido
 
 Todos **Endpoints** que estão sendo utilizados para semear o banco de dados.
 
-| Tabelas | Descrição | Endpoint | 
-
-| --- | --- | --- |
-
-| Issues | As tarefas que estão sendo feitas | [JSON](https://my-json-server.typicode.com/bomoko/algm_assessment/issues) | Components | São categorias / tags das tarefas | [JSON](https://my-json-server.typicode.com/bomoko/algm_assessment/components) | Timelogs | O número de segundos trabalhados em um problema por algum usuário | [JSON](https://my-json-server.typicode.com/bomoko/algm_assessment/timelogs) | Users | Os usuários que trabalham em tarefas, tempo de registro, etc | [JSON](https://my-json-server.typicode.com/bomoko/algm_assessment/users) |
+| Comando | Descrição | Endpoint |
+| --- | --- | --- | 
+| Issues | As tarefas que estão sendo feitas | [JSON](https://my-json-server.typicode.com/bomoko/algm_assessment/issues) |
+| Components | São categorias / tags das tarefas | [JSON](https://my-json-server.typicode.com/bomoko/algm_assessment/components) |
+| Timelogs | O número de segundos trabalhados em um problema por algum usuário | [JSON](https://my-json-server.typicode.com/bomoko/algm_assessment/timelogs) |
+| Users | Os usuários que trabalham em tarefas, tempo de registro, etc | [JSON](https://my-json-server.typicode.com/bomoko/algm_assessment/users) |
 
 
 # Tarefas feitas
