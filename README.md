@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/laravel/laravel">
+  <a href="https://laravel.com/docs/7.x/installation">
     <img src="https://img.shields.io/badge/laravel-7.29.2-red.svg" alt="laravel">
   </a>
   <a href="https://php.com.br/14?instalacao-do-php-em-ubuntu-linux">
@@ -50,7 +50,7 @@ resumos JSON desses dados em um formato que faça sentido para que ser consumido
 
 Todos **Endpoints** fornecidos que estão sendo utilizados para semear o banco de dados local.
 
-| Comando | Descrição | Endpoint |
+| Tabelas | Descrição | Endpoint |
 | --- | --- | --- | 
 | Issues | As tarefas que estão sendo feitas | [JSON](https://my-json-server.typicode.com/bomoko/algm_assessment/issues) |
 | Components | São categorias / tags das tarefas | [JSON](https://my-json-server.typicode.com/bomoko/algm_assessment/components) |
