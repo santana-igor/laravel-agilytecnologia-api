@@ -167,11 +167,11 @@ Os testes já encontram-se no diretório `tests/Unit/`. Para executá-los, basta
 # Inicie limpando o cache
 php artisan config:cache
 
-# Executar o test com Artisan
+# Executando o test com Artisan
 php artisan test
 
-# Executar o test chamando diretamente phpunit. Obs.: Partindo da raiz da aplicação
-$ vendor/phpunit/phpunit/phpunit
+# Ou você pode executar o test chamando diretamente phpunit. Obs.: Partindo da raiz da aplicação
+$ ./vendor/bin/phpunit
 ```
 
 # Endpoints da aplicação
