@@ -4,10 +4,13 @@
 
 <p align="center">
   <a href="https://github.com/laravel/laravel">
-    <img src="https://img.shields.io/badge/laravel-7.29.2-green.svg" alt="laravel">
+    <img src="https://img.shields.io/badge/laravel-7.29.2-red.svg" alt="laravel">
+  </a>
+  <a href="https://php.com.br/14?instalacao-do-php-em-ubuntu-linux">
+    <img src="https://img.shields.io/badge/php-7.4.3-blue.svg" alt="php">
   </a>
   <a href="https://packagist.org/packages/phpunit/phpunit">
-    <img src="https://img.shields.io/badge/phpunit-8.5.8-blue.svg" alt="phpunit">
+    <img src="https://img.shields.io/badge/phpunit-8.5.8-blueviolet.svg" alt="phpunit">
   </a>
 </p>
 
