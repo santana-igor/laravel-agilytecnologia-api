@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/php-7.4.3-blue.svg" alt="php">
   </a>
   <a href="https://packagist.org/packages/phpunit/phpunit">
-    <img src="https://img.shields.io/badge/phpunit-8.5.8-blueviolet.svg" alt="phpunit">
+    <img src="https://img.shields.io/badge/phpunit-8.5.8-orange.svg" alt="phpunit">
   </a>
 </p>
 
