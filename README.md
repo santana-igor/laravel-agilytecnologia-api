@@ -72,9 +72,9 @@ Todos **Endpoints** fornecidos que estão sendo utilizados para semear o banco d
 
 # Segunda etapa - Criação dos Endpoints da API
 
-  - Em Routes Web foi criado um Endpoint chamado /user-timelogs que retornará um JSON de usuários e quantos segundos eles trabalharam.
-
-  - Em Routes Web foi criado um Endpoint chamado /component-metadata que retornará um JSON da quantidade de tarefas com a soma de todo tempo gasto agrupado por Component (categoria).
+  - Em `routes/api.php` foram criados 2 Endpoints: 
+    - `/user-timelogs` que retornará um JSON de usuários e quantos segundos eles trabalharam.
+    - `/component-metadata` que retornará um JSON da quantidade de tarefas com a soma de todo tempo gasto agrupado por Component (categoria).
 
 
 # Estrutura de arquivos da aplicação
