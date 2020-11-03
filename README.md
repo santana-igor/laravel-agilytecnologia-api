@@ -111,6 +111,7 @@ tests/
 
 
 # Instruções de instalação
+Para instalar as dependências do projeto é necessário ter o `composer` presente em sua máquina. Caso não tenha o composer instalado, [Clique aqui](https://getcomposer.org/doc/00-intro.md) e siga o guia completo antes de prosseguir.
 
 ```bash
 # Clone o projeto
